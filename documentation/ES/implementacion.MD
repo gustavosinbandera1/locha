@@ -980,7 +980,7 @@ El formato RFC5444 define los siguientes elementos:
  - Length: Este campo indica cuantos bytes ocupa el campo value.
  - Value: Es el valor concreto del objeto al que se refiere.
 
-En la siguiente imagen se representa la estructura de un paquete RFC544 y sus dependencias.
+En la siguiente imagen se representa la estructura de un paquete RFC5444 y sus dependencias.
 
  <img src="imple_pic/rfc5444-pkt.png" alt="drawing" height="600" width="1000" align="center"/>
 
@@ -996,9 +996,6 @@ En el encabezado del paquete AODVv2 usa:
 **msg-addr-length** indica el tamano de la direccion en el mensaje, el cual su valor corresponde a ```addr_length en octetos -1```, por ejemplo para IPV4 seria 3 y para IPV6 seria igual 15.
 
  Para esto primero vamos a revisar cuales son los campos de cabecera del paquete RFC5444 que AODVv2 utiliza.
-
-
-
 
 ## 7.1 Paquetes
 
